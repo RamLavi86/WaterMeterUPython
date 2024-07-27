@@ -18,3 +18,7 @@ In order to run REPL (read evaluate print loop) go to PuTTy, connect COMx with b
 https://randomnerdtutorials.com/micropython-send-emails-esp32-esp826/
 
 upload umail to device
+
+FIREBASE: https://console.firebase.google.com/u/1/project/watermeterupython/database/watermeterupython-default-rtdb/data
+
+Gmail account: ramlavipushnotification@gmail.com
