@@ -267,7 +267,7 @@ while True:
     # send daily summary
     if current_hour == 21:
         if summary_send_enable == True:
-            summary_email() # send daily summary
+            # summary_email() # send daily summary
             summary_send_enable = False # prevent daily summary send again until 21:00 at the next day
             print(f'daily summary was sent')
     else: # current_hour != 21
