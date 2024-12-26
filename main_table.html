@@ -37,7 +37,7 @@
                 .then(data => {
                     // Convert data to array and sort by timestamp in descending order
                     const dataArray = Object.values(data);
-                    dataArray.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+                    dataArray.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
                     renderTable(dataArray);
                 })
                 .catch(error => console.error("Error fetching data:", error));
